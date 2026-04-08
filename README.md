@@ -36,6 +36,7 @@ Fontes
 Principais perguntas e suas respostas:
 
     O que é o SDD?
+    
         Spec-Driven Development (SDD) é uma metodologia de desenvolvimento de software que estabelece a especificação (spec) como o artefato primário e a fonte da verdade de um projeto, invertendo a lógica tradicional onde o código é o elemento central
 . Em vez de iniciar a programação imediatamente, o SDD exige que se defina detalhadamente o que o sistema deve fazer — incluindo comportamentos, requisitos, fluxos de usuário e casos de borda — antes que qualquer linha de código seja escrita
 .
