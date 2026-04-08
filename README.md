@@ -19,3 +19,16 @@ Objetivos
     Melhorar a comunicação entre equipes e stakeholders;
 
     Permitir automação, como geração de código e testes a partir das especificações.
+
+
+Fontes
+
+    https://dev.to/danielsogl/spec-driven-development-sdd-a-initial-review-2llp
+
+    https://blog.dsacademy.com.br/spec-driven-development-a-nova-arquitetura-de-engenharia-de-software-na-era-dos-agentes-de-ia-parte-3/
+
+    https://www.youtube.com/watch?v=Z9r8MYNKZ3g
+
+    https://www.youtube.com/watch?v=sUDP1eH1rtI
+
+    https://www.youtube.com/watch?v=cenPrHKGIRQ
