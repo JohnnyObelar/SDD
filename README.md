@@ -37,7 +37,7 @@ Principais perguntas e suas respostas:
 
     O que é o SDD?
     
-        Spec-Driven Development (SDD) é uma metodologia de desenvolvimento de software que estabelece a especificação (spec) como o artefato primário e a fonte da verdade de um projeto, invertendo a lógica tradicional onde o código é o elemento central
+Spec-Driven Development (SDD) é uma metodologia de desenvolvimento de software que estabelece a especificação (spec) como o artefato primário e a fonte da verdade de um projeto, invertendo a lógica tradicional onde o código é o elemento central
 . Em vez de iniciar a programação imediatamente, o SDD exige que se defina detalhadamente o que o sistema deve fazer — incluindo comportamentos, requisitos, fluxos de usuário e casos de borda — antes que qualquer linha de código seja escrita
 .
 Os principais pilares e conceitos do SDD incluem:
@@ -55,7 +55,8 @@ Níveis de Rigor: A prática pode variar desde o Spec-first (a spec guia apenas 
 Em resumo, o SDD favorece a clareza sobre a suposição, criando um contrato duradouro que alinha humanos e agentes de IA, garantindo que o software entregue seja não apenas rápido de produzir, mas correto, testável e fácil de manter
 
     Quais são as fases do fluxo de trabalho do SDD?
-        O fluxo de trabalho do Spec-Driven Development (SDD) segue um ritmo estruturado e repetitivo que visa manter o alinhamento entre a ideia original e a implementação final
+    
+O fluxo de trabalho do Spec-Driven Development (SDD) segue um ritmo estruturado e repetitivo que visa manter o alinhamento entre a ideia original e a implementação final
 . Embora existam variações dependendo da ferramenta utilizada, o processo geralmente se divide em quatro fases principais:
 1. Especificar (Specify) — Definindo o "Quê"
 Esta fase foca exclusivamente no comportamento, requisitos e critérios de aceitação, sem se preocupar com detalhes de implementação técnica
@@ -105,7 +106,7 @@ Nota sobre a "Constituição": Algumas metodologias, como o GitHub Spec Kit, inc
 
     Como o SDD ajuda a evitar o chamado 'vibe coding'?
 
-       O Spec-Driven Development (SDD) ajuda a evitar o vibe coding ao substituir a intuição e o "adivinhamento" por uma especificação formal e duradoura que serve como a única fonte da verdade
+O Spec-Driven Development (SDD) ajuda a evitar o vibe coding ao substituir a intuição e o "adivinhamento" por uma especificação formal e duradoura que serve como a única fonte da verdade
 . Enquanto o vibe coding se baseia em descrições vagas e ajustes reativos à medida que o código quebra, o SDD estabelece diretrizes claras antes de qualquer implementação
 .
 Aqui estão as principais formas como o SDD combate os problemas do vibe coding:
@@ -127,7 +128,8 @@ Validação Sistemática: Diferente do vibe coding, onde o teste é muitas vezes
 Em suma, o SDD transforma a IA de um "assistente descuidado" que apenas reage a vibrações em um parceiro que compreende a intenção real por trás do software
 
     O que acontece quando o código diverge da especificação?
-        Quando o código diverge da especificação no contexto do Spec-Driven Development (SDD), ocorre o que os especialistas chamam de lacuna de alinhamento (gap analysis)
+    
+Quando o código diverge da especificação no contexto do Spec-Driven Development (SDD), ocorre o que os especialistas chamam de lacuna de alinhamento (gap analysis)
 . Como a especificação é a "fonte da verdade" e o contrato de execução, qualquer discrepância é tratada como um falha de integridade do sistema
 .
 De acordo com as fontes, as consequências e ações tomadas nesse cenário são as seguintes:
@@ -158,7 +160,7 @@ Em resumo, a filosofia do SDD dita que "uma falha no código é, na verdade, um 
 
     Me dê um exemplo de como fica uma estrutura do projeto depois que criou toda a documentação
 
-       Com base nos documentos fornecidos, a estrutura de um projeto que utiliza a metodologia Spec-Driven Development (SDD), especialmente através do GitHub Spec Kit, é organizada para garantir que a especificação seja a "fonte da verdade" e esteja sempre acessível tanto para humanos quanto para agentes de IA
+Com base nos documentos fornecidos, a estrutura de um projeto que utiliza a metodologia Spec-Driven Development (SDD), especialmente através do GitHub Spec Kit, é organizada para garantir que a especificação seja a "fonte da verdade" e esteja sempre acessível tanto para humanos quanto para agentes de IA
 .
 Abaixo está um exemplo de como fica a árvore de diretórios após a conclusão das fases de especificação, planejamento e decomposição de tarefas:
 Estrutura de Diretórios (Exemplo)
@@ -187,7 +189,9 @@ meu-projeto/
 ├── src/                           # Código-fonte da aplicação [19]
 ├── tests/                         # Testes automatizados vinculados à spec [19]
 └── CLAUDE.md                      # (Opcional) Contexto persistente para Claude Code [20, 21]
+
 Detalhamento dos Principais Arquivos
+
 constitution.md: É o documento de governança. Ele define padrões de código, segurança, acessibilidade e stacks tecnológicas que não são negociáveis e que a IA deve respeitar em todas as tarefas
 .
 spec.md: Foca no "o quê" e no "porquê". Contém histórias de usuário, critérios de aceitação e fluxos funcionais, evitando detalhes técnicos de implementação
@@ -202,7 +206,7 @@ Esta estrutura transforma documentos que antes seriam "estáticos" em artefatos 
 
     Com qual IA eu consigo usar essa metodologia?
 
-        A metodologia de Spec-Driven Development (SDD) é, por princípio, agnóstica em relação à IA, o que significa que pode ser implementada com praticamente qualquer agente de codificação ou modelo de linguagem avançado, desde que ele receba especificações estruturadas para guiar o trabalho
+A metodologia de Spec-Driven Development (SDD) é, por princípio, agnóstica em relação à IA, o que significa que pode ser implementada com praticamente qualquer agente de codificação ou modelo de linguagem avançado, desde que ele receba especificações estruturadas para guiar o trabalho
 .
 No entanto, existem ferramentas e agentes que já possuem suporte nativo ou fluxos de trabalho otimizados para o SDD:
 1. Ferramentas que suportam múltiplos agentes
@@ -230,7 +234,8 @@ Gemini 1.5 Pro
 Em resumo, embora você possa usar o SDD com qualquer IA via prompts manuais em Markdown, ferramentas como o GitHub Spec Kit e agentes como o Claude Code oferecem a experiência mais estruturada e automatizada disponível atualmente
 
     Consegue criar um exemplo de documentação referente ao software da calculadora do celular? Quero que monte a estrutura, com as especificações.
-       Com base na metodologia de Spec-Driven Development (SDD), a documentação de um software não é apenas um registro passivo, mas um conjunto de artefatos executáveis que servem como a única fonte da verdade para humanos e agentes de IA
+
+Com base na metodologia de Spec-Driven Development (SDD), a documentação de um software não é apenas um registro passivo, mas um conjunto de artefatos executáveis que servem como a única fonte da verdade para humanos e agentes de IA
 .
 Abaixo, apresento uma estrutura de exemplo para uma Calculadora de Celular, organizada seguindo o fluxo de trabalho típico do SDD (Especificar, Planejar, Tarefas e Implementar)
 .
@@ -299,7 +304,7 @@ T004: Criar componente de Visor com suporte a histórico de operações
 
 --------------------------------------------------------------------------------
     Por que usar essa estrutura?
-        Ao montar a documentação dessa forma, você evita o "vibe-coding" (programar por intuição ou prompts vagos)
+Ao montar a documentação dessa forma, você evita o "vibe-coding" (programar por intuição ou prompts vagos)
 . A especificação se torna um contrato
 :
 A IA não precisa "adivinhar" o comportamento em erros
