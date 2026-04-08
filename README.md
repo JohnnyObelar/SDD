@@ -1,4 +1,4 @@
-Contexto
+Contexto:
 
     O SDD (Desenvolvimento de Software em Especificações) é uma abordagem de engenharia de software na qual o desenvolvimento é guiado por especificações formais ou semi-formais. Em vez de     começar diretamente pela implementação, o foco inicial está na definição clara, detalhada e validável dos requisitos do sistema.
 
@@ -6,7 +6,7 @@ Contexto
 
     O SDD é especialmente relevante em sistemas críticos, onde erros podem gerar impactos significativos, como em áreas financeiras, médicas ou industriais.
 
-Objetivos
+Objetivos:
 
     Reduzir ambiguidades na interpretação dos requisitos;
 
@@ -21,7 +21,7 @@ Objetivos
     Permitir automação, como geração de código e testes a partir das especificações.
 
 
-Fontes
+Fontes:
 
     https://dev.to/danielsogl/spec-driven-development-sdd-a-initial-review-2llp
 
