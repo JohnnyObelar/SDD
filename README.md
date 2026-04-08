@@ -8,9 +8,14 @@ O SDD é especialmente relevante em sistemas críticos, onde erros podem gerar i
 
 Objetivos
 
-Reduzir ambiguidades na interpretação dos requisitos
-Garantir maior qualidade e confiabilidade do software
-Facilitar a validação e verificação antes da implementação
-Diminuir retrabalho durante o desenvolvimento
-Melhorar a comunicação entre equipes e stakeholders
-Permitir automação, como geração de código e testes a partir das especificações
+Reduzir ambiguidades na interpretação dos requisitos;
+
+Garantir maior qualidade e confiabilidade do software;
+
+Facilitar a validação e verificação antes da implementação;
+
+Diminuir retrabalho durante o desenvolvimento;
+
+Melhorar a comunicação entre equipes e stakeholders;
+
+Permitir automação, como geração de código e testes a partir das especificações.
