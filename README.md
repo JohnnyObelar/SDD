@@ -104,7 +104,7 @@ Ciclo Contínuo: Se houver mudanças nos requisitos, a especificação é atuali
 Nota sobre a "Constituição": Algumas metodologias, como o GitHub Spec Kit, incluem um passo preliminar essencial chamado Constituição
 . Ela define princípios imutáveis do projeto, como padrões de código, acessibilidade e regras de governança que devem ser respeitadas em todas as fases subsequentes
 
-    Como o SDD ajuda a evitar o chamado 'vibe coding'?
+        Como o SDD ajuda a evitar o chamado 'vibe coding'?
 
 O Spec-Driven Development (SDD) ajuda a evitar o vibe coding ao substituir a intuição e o "adivinhamento" por uma especificação formal e duradoura que serve como a única fonte da verdade
 . Enquanto o vibe coding se baseia em descrições vagas e ajustes reativos à medida que o código quebra, o SDD estabelece diretrizes claras antes de qualquer implementação
@@ -127,7 +127,7 @@ Validação Sistemática: Diferente do vibe coding, onde o teste é muitas vezes
 .
 Em suma, o SDD transforma a IA de um "assistente descuidado" que apenas reage a vibrações em um parceiro que compreende a intenção real por trás do software
 
-    O que acontece quando o código diverge da especificação?
+        O que acontece quando o código diverge da especificação?
     
 Quando o código diverge da especificação no contexto do Spec-Driven Development (SDD), ocorre o que os especialistas chamam de lacuna de alinhamento (gap analysis)
 . Como a especificação é a "fonte da verdade" e o contrato de execução, qualquer discrepância é tratada como um falha de integridade do sistema
@@ -158,7 +158,7 @@ Dificuldade de Onboarding: Novos desenvolvedores ou agentes de IA serão enganad
 Em resumo, a filosofia do SDD dita que "uma falha no código é, na verdade, um sintoma de uma lacuna na especificação"
 . Portanto, a solução sustentável é sempre realinhar o artefato de intenção (spec) com o artefato de realização (código) antes de prosseguir com o desenvolvimento
 
-    Me dê um exemplo de como fica uma estrutura do projeto depois que criou toda a documentação
+        Me dê um exemplo de como fica uma estrutura do projeto depois que criou toda a documentação
 
 Com base nos documentos fornecidos, a estrutura de um projeto que utiliza a metodologia Spec-Driven Development (SDD), especialmente através do GitHub Spec Kit, é organizada para garantir que a especificação seja a "fonte da verdade" e esteja sempre acessível tanto para humanos quanto para agentes de IA
 .
@@ -233,7 +233,7 @@ Gemini 1.5 Pro
 .
 Em resumo, embora você possa usar o SDD com qualquer IA via prompts manuais em Markdown, ferramentas como o GitHub Spec Kit e agentes como o Claude Code oferecem a experiência mais estruturada e automatizada disponível atualmente
 
-    Consegue criar um exemplo de documentação referente ao software da calculadora do celular? Quero que monte a estrutura, com as especificações.
+        Consegue criar um exemplo de documentação referente ao software da calculadora do celular? Quero que monte a estrutura, com as especificações.
 
 Com base na metodologia de Spec-Driven Development (SDD), a documentação de um software não é apenas um registro passivo, mas um conjunto de artefatos executáveis que servem como a única fonte da verdade para humanos e agentes de IA
 .
