@@ -316,6 +316,7 @@ Se o código divergir do que está no spec.md, o sistema de validação (como o 
 Dessa forma, a especificação deixa de ser papel e passa a ser propulsão para o desenvolvimento
 
 
-    Link NotebookLM: **https://notebooklm.google.com/notebook/66c539ae-71c6-4196-8aa3-4e2339a5d03b**
+Link NotebookLM: 
+    **https://notebooklm.google.com/notebook/66c539ae-71c6-4196-8aa3-4e2339a5d03b**
 
     
